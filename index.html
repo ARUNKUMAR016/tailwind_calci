@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind cdn</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+    <header class="mb-8">
+        <h1 class="text-3xl font-light text-gray-700">Tailwind Calc</h1>
+    </header>
+    
+    <main class="bg-white rounded-xl shadow-md p-4 w-80">
+        <div class="bg-gray-50 rounded-lg p-4 mb-4 text-right text-2xl font-mono text-gray-700">
+            0
+        </div>
+
+        <!-- Buttons Grid -->
+        <div class="grid grid-cols-4 gap-2">
+            <!-- Top Row -->
+            <button class="col-span-2 bg-red-100 text-red-600 p-3 rounded-lg hover:bg-red-200">C</button>
+            <button class="bg-gray-200 text-gray-700 p-3 rounded-lg hover:bg-gray-300">%</button>
+            <button class="bg-teal-500 text-white p-3 rounded-lg hover:bg-teal-600">÷</button>
+
+            <!-- Number Rows -->
+            <button class="bg-gray-100 text-gray-700 p-3 rounded-lg hover:bg-gray-200">7</button>
+            <button class="bg-gray-100 text-gray-700 p-3 rounded-lg hover:bg-gray-200">8</button>
+            <button class="bg-gray-100 text-gray-700 p-3 rounded-lg hover:bg-gray-200">9</button>
+            <button class="bg-teal-500 text-white p-3 rounded-lg hover:bg-teal-600">×</button>
+
+            <button class="bg-gray-100 text-gray-700 p-3 rounded-lg hover:bg-gray-200">4</button>
+            <button class="bg-gray-100 text-gray-700 p-3 rounded-lg hover:bg-gray-200">5</button>
+            <button class="bg-gray-100 text-gray-700 p-3 rounded-lg hover:bg-gray-200">6</button>
+            <button class="bg-teal-500 text-white p-3 rounded-lg hover:bg-teal-600">-</button>
+
+            <button class="bg-gray-100 text-gray-700 p-3 rounded-lg hover:bg-gray-200">1</button>
+            <button class="bg-gray-100 text-gray-700 p-3 rounded-lg hover:bg-gray-200">2</button>
+            <button class="bg-gray-100 text-gray-700 p-3 rounded-lg hover:bg-gray-200">3</button>
+            <button class="bg-teal-500 text-white p-3 rounded-lg hover:bg-teal-600">+</button>
+
+            <!-- Bottom Row -->
+            <button class="col-span-2 bg-gray-100 text-gray-700 p-3 rounded-lg hover:bg-gray-200">0</button>
+            <button class="bg-gray-100 text-gray-700 p-3 rounded-lg hover:bg-gray-200">.</button>
+            <button class="bg-teal-600 text-white p-3 rounded-lg hover:bg-teal-700">=</button>
+        </div>
+    </main>
+</body>
+</html>
